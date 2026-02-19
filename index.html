@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dikt RPM Repository</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 50px auto; padding: 20px; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    pre { background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 8px; overflow-x: auto; }
+    pre code { background: none; padding: 0; }
+    .green { color: #22c55e; }
+    .cyan { color: #06b6d4; }
+  </style>
+</head>
+<body>
+  <h1>Dikt RPM Repository</h1>
+  <p>Speech-to-Text for GNOME/Wayland</p>
+
+  <h2>Install</h2>
+  <pre><code><span class="green">$</span> sudo dnf config-manager --add-repo https://rohithmahesh3.github.io/dikt-rpm/dikt.repo
+<span class="green">$</span> sudo dnf install <span class="cyan">ibus-dikt</span></code></pre>
+
+  <h2>Files</h2>
+  <ul>
+    <li><a href="dikt.repo">dikt.repo</a> - Repository configuration</li>
+    <li><a href="repodata/">repodata/</a> - Repository metadata</li>
+  </ul>
+
+  <p><a href="https://dikt.tequerist.com">dikt.tequerist.com</a></p>
+</body>
+</html>
