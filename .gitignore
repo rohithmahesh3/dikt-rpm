@@ -1,6 +1,0 @@
-# RPM packages and repodata are managed by sync script
-# We commit them for GitHub Pages to serve
-
-# OS files
-.DS_Store
-Thumbs.db
